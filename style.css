@@ -435,6 +435,11 @@ nav .fas{
   display:none;
 }
 @media (max-width: 991px) {
+  #header{
+    background-image:url(images/WhatsApp\ Image\ 2024-09-28\ at\ 22.23.47_d8be98f9.jpg);
+    height:10vh;
+    width:10%;
+  }
   .container {
     padding: 20px;
   }
@@ -482,6 +487,11 @@ nav .fas {
   display: none;
 }
 @media (max-width: 768px) {
+  #header{
+    background-image:url(images/WhatsApp\ Image\ 2024-09-28\ at\ 22.19.21_63486181.jpg);
+    height:10vh;
+    width:10%;
+  }
   nav ul {
       position: fixed;
       top: 0;
@@ -520,6 +530,27 @@ nav .fas {
       display: flex; /* Flex layout for the list */
       align-items: center; /* Center items vertically */
   }
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px; /* Hide off-screen */
+    width: 60%;
+    height: 100%;
+    transition: right 0.5s;
+}
+
+nav ul.active {
+    right: 0; /* Show when active */
+}
+
+nav .fa-bars, nav .fa-times {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
 
   nav ul li {
       padding: 15px 20px; /* Add padding to each list item */
@@ -540,6 +571,27 @@ nav .fas {
       cursor: pointer; /* Change cursor to pointer for clickable icons */
       padding: 10px; /* Add padding around icons */
   }
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px; /* Hide off-screen */
+    width: 60%;
+    height: 100%;
+    transition: right 0.5s;
+}
+
+nav ul.active {
+    right: 0; /* Show when active */
+}
+
+nav .fa-bars, nav .fa-times {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
 
 
 }
@@ -548,7 +600,8 @@ nav .fas {
 @media (max-width: 600px) {
   #header{
     background-image:url(images/WhatsApp\ Image\ 2024-09-28\ at\ 22.19.21_63486181.jpg);
-    height:80vh;
+    height:50vh;
+    width:10%;
   }
   .header-text{
     margin-top:100%;
@@ -575,6 +628,27 @@ nav .fas {
 nav ul.active {
     display: flex; /* Show when active */
   }
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px; /* Hide off-screen */
+    width: 60%;
+    height: 100%;
+    transition: right 0.5s;
+}
+
+nav ul.active {
+    right: 0; /* Show when active */
+}
+
+nav .fa-bars, nav .fa-times {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
 
   nav ul{
     background:#ff004f;
